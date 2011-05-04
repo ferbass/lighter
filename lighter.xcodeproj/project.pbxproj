@@ -360,7 +360,7 @@
 		E101C8DE1370E72D006A1BEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E101C8E01370E72D006A1BEA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E101C8E11370E72D006A1BEA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E101C8E31370E72D006A1BEA /* Lighter.h */ = {isa = PBXFileReference; path = Lighter.h; sourceTree = "<group>"; };
+		E101C8E31370E72D006A1BEA /* Lighter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lighter.h; sourceTree = "<group>"; };
 		E101C8E41370E72D006A1BEA /* Lighter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lighter.m; sourceTree = "<group>"; };
 		E101C8E61370E72D006A1BEA /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		E101C8EC1370E92F006A1BEA /* fire.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fire.plist; sourceTree = "<group>"; };
@@ -389,7 +389,7 @@
 		E101C7721370E72A006A1BEA = {
 			isa = PBXGroup;
 			children = (
-				E101C7911370E72A006A1BEA /* cocos2d_particle_example */,
+				E101C7911370E72A006A1BEA /* lighter */,
 				E101C7801370E72A006A1BEA /* Frameworks */,
 				E101C77E1370E72A006A1BEA /* Products */,
 			);
@@ -418,7 +418,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E101C7911370E72A006A1BEA /* cocos2d_particle_example */ = {
+		E101C7911370E72A006A1BEA /* lighter */ = {
 			isa = PBXGroup;
 			children = (
 				E101C8DD1370E72D006A1BEA /* AppDelegate.h */,
@@ -436,6 +436,7 @@
 				E101C8C01370E72D006A1BEA /* TouchJSON */,
 				E101C8D91370E72D006A1BEA /* Supporting Files */,
 			);
+			name = lighter;
 			path = cocos2d_particle_example;
 			sourceTree = "<group>";
 		};
@@ -969,6 +970,7 @@
 				E101C8EB1370E72D006A1BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
