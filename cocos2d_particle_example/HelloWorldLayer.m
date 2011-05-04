@@ -34,9 +34,16 @@
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
-		CCParticleSystemQuad *fire = [CCParticleSystemQuad particleWithFile:@"fire.plist"];
+		
+        CCParticleSystemQuad *fire = [CCParticleSystemQuad particleWithFile:@"fire.plist"];
 		CGSize size = [[CCDirector sharedDirector] winSize];
-		fire.position =  ccp( size.width /2 , size.height/2 );
+		fire.position =  ccp( 130 , 210);
+        
+        CCSprite *lighter = [CCSprite spriteWithFile:@"bic_lighter.png"];
+        lighter.position = ccp(size.width / 2, 100);
+        
+        
+        [self addChild:lighter];
 		[self addChild:fire];
 	}
 	return self;
