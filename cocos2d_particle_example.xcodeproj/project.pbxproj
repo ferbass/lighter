@@ -123,7 +123,7 @@
 		E101C8DC1370E72D006A1BEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E101C8DB1370E72D006A1BEA /* main.m */; };
 		E101C8DF1370E72D006A1BEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E101C8DE1370E72D006A1BEA /* AppDelegate.m */; };
 		E101C8E21370E72D006A1BEA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E101C8E11370E72D006A1BEA /* RootViewController.m */; };
-		E101C8E51370E72D006A1BEA /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E101C8E41370E72D006A1BEA /* HelloWorldLayer.m */; };
+		E101C8E51370E72D006A1BEA /* Lighter.m in Sources */ = {isa = PBXBuildFile; fileRef = E101C8E41370E72D006A1BEA /* Lighter.m */; };
 		E101C8ED1370E92F006A1BEA /* fire.plist in Resources */ = {isa = PBXBuildFile; fileRef = E101C8EC1370E92F006A1BEA /* fire.plist */; };
 		E101C8EF1370EA55006A1BEA /* bic_lighter.png in Resources */ = {isa = PBXBuildFile; fileRef = E101C8EE1370EA55006A1BEA /* bic_lighter.png */; };
 /* End PBXBuildFile section */
@@ -360,8 +360,8 @@
 		E101C8DE1370E72D006A1BEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E101C8E01370E72D006A1BEA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E101C8E11370E72D006A1BEA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E101C8E31370E72D006A1BEA /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		E101C8E41370E72D006A1BEA /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		E101C8E31370E72D006A1BEA /* Lighter.h */ = {isa = PBXFileReference; path = Lighter.h; sourceTree = "<group>"; };
+		E101C8E41370E72D006A1BEA /* Lighter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lighter.m; sourceTree = "<group>"; };
 		E101C8E61370E72D006A1BEA /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		E101C8EC1370E92F006A1BEA /* fire.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fire.plist; sourceTree = "<group>"; };
 		E101C8EE1370EA55006A1BEA /* bic_lighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bic_lighter.png; sourceTree = "<group>"; };
@@ -425,8 +425,8 @@
 				E101C8DE1370E72D006A1BEA /* AppDelegate.m */,
 				E101C8E01370E72D006A1BEA /* RootViewController.h */,
 				E101C8E11370E72D006A1BEA /* RootViewController.m */,
-				E101C8E31370E72D006A1BEA /* HelloWorldLayer.h */,
-				E101C8E41370E72D006A1BEA /* HelloWorldLayer.m */,
+				E101C8E31370E72D006A1BEA /* Lighter.h */,
+				E101C8E41370E72D006A1BEA /* Lighter.m */,
 				E101C8E61370E72D006A1BEA /* GameConfig.h */,
 				E101C7921370E72A006A1BEA /* Resources */,
 				E101C7A61370E72A006A1BEA /* cocos2d */,
@@ -875,7 +875,7 @@
 				E101C8DC1370E72D006A1BEA /* main.m in Sources */,
 				E101C8DF1370E72D006A1BEA /* AppDelegate.m in Sources */,
 				E101C8E21370E72D006A1BEA /* RootViewController.m in Sources */,
-				E101C8E51370E72D006A1BEA /* HelloWorldLayer.m in Sources */,
+				E101C8E51370E72D006A1BEA /* Lighter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
