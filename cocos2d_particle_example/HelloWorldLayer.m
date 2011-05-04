@@ -33,20 +33,13 @@
 {
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
-	if( (self=[super init])) {
-		
-		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
-
-		// ask director the the window size
+	if( (self=[super init] )) {
+		CCParticleSystemQuad *fire = [CCParticleSystemQuad particleWithFile:@"fire.plist"];
 		CGSize size = [[CCDirector sharedDirector] winSize];
-	
-		// position the label on the center of the screen
-		label.position =  ccp( size.width /2 , size.height/2 );
-		
-		// add the label as a child to this Layer
-		[self addChild: label];
+		fire.position =  ccp( size.width /2 , size.height/2 );
+		[self addChild:fire];
 	}
+	return self;
 	return self;
 }
 

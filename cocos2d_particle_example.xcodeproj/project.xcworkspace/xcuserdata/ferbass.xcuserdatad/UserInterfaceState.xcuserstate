@@ -1027,9 +1027,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326166833.02581102</real>
-		<string>{470, 653}</string>
-		<string>{764, 0}</string>
+		<real>326166987.84890097</real>
+		<string>{346, 1013}</string>
+		<string>{740, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1646,7 +1646,7 @@
 				<integer>158</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>326166607.94524401</real>
+			<real>326166965.13544703</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1657,7 +1657,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 22:50</string>
+		<string>Today at 22:56</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -1687,7 +1687,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>164</integer>
+					<integer>165</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1725,9 +1725,10 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>117</integer>
+				<integer>164</integer>
 			</dict>
 		</dict>
+		<string>file://localhost/tmp/cocos2d_particle_example/cocos2d_particle_example/HelloWorldLayer.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1742,10 +1743,9 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>165</integer>
+				<integer>117</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/tmp/cocos2d_particle_example/cocos2d_particle_example/HelloWorldLayer.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1988,7 +1988,7 @@
 		<string>IDEShowUtilities</string>
 		<string>IDEEditorArea</string>
 		<true/>
-		<string>fire.plist</string>
+		<string>HelloWorldLayer.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2184,7 +2184,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>219</integer>
+					<integer>218</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2248,16 +2248,11 @@
 					<key>CF$UID</key>
 					<integer>217</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>218</integer>
-				</dict>
 			</array>
 		</dict>
 		<string>cocos2d_particle_example</string>
 		<string>cocos2d_particle_example</string>
-		<string>Resources</string>
-		<string>fire.plist</string>
+		<string>HelloWorldLayer.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2268,7 +2263,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>220</integer>
+					<integer>219</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2298,10 +2293,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>217</integer>
+					<integer>220</integer>
 				</dict>
 			</array>
 		</dict>
+		<string>Resources</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2517,11 +2513,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>260</integer>
+					<integer>259</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>286</integer>
+					<integer>285</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2541,7 +2537,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>191</integer>
+					<integer>15</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2557,7 +2553,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>259</integer>
+				<integer>258</integer>
 			</dict>
 			<key>geniusEditorContextNode</key>
 			<dict>
@@ -2572,14 +2568,14 @@
 			<key>rootLayoutTreeNode</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>256</integer>
+				<integer>255</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>258</integer>
+				<integer>257</integer>
 			</dict>
 			<key>children</key>
 			<dict>
@@ -2598,19 +2594,19 @@
 			<key>parent</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>256</integer>
+				<integer>255</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>255</integer>
+				<integer>254</integer>
 			</dict>
 			<key>DocumentLocation</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>252</integer>
+				<integer>251</integer>
 			</dict>
 			<key>DomainIdentifier</key>
 			<dict>
@@ -2649,32 +2645,7 @@
 					<key>CF$UID</key>
 					<integer>249</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>250</integer>
-				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>247</integer>
-			</dict>
-			<key>Identifier</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>218</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$classes</key>
-			<array>
-				<string>IDEArchivableStringIndexPair</string>
-				<string>NSObject</string>
-			</array>
-			<key>$classname</key>
-			<string>IDEArchivableStringIndexPair</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -2687,6 +2658,15 @@
 				<key>CF$UID</key>
 				<integer>217</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>IDEArchivableStringIndexPair</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>IDEArchivableStringIndexPair</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -2709,7 +2689,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>251</integer>
+				<integer>250</integer>
 			</dict>
 		</dict>
 		<string>cocos2d_particle_example</string>
@@ -2717,12 +2697,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>254</integer>
+				<integer>253</integer>
 			</dict>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>253</integer>
+				<integer>252</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
@@ -2737,7 +2717,7 @@
 				<integer>24</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/tmp/cocos2d_particle_example/cocos2d_particle_example/fire.plist</string>
+			<string>file://localhost/tmp/cocos2d_particle_example/cocos2d_particle_example/HelloWorldLayer.m</string>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -2761,12 +2741,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>258</integer>
+				<integer>257</integer>
 			</dict>
 			<key>children</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>257</integer>
+				<integer>256</integer>
 			</dict>
 			<key>contentType</key>
 			<integer>0</integer>
@@ -2825,6 +2805,10 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>260</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>261</integer>
 				</dict>
 				<dict>
@@ -2843,10 +2827,6 @@
 					<key>CF$UID</key>
 					<integer>265</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>266</integer>
-				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
@@ -2856,11 +2836,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>267</integer>
+					<integer>266</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>269</integer>
+					<integer>268</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2868,11 +2848,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>272</integer>
+					<integer>271</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>280</integer>
+					<integer>279</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2892,7 +2872,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>268</integer>
+					<integer>267</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -2914,14 +2894,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>270</integer>
+					<integer>269</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>271</integer>
+					<integer>270</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2944,7 +2924,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>273</integer>
+					<integer>272</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2958,11 +2938,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>274</integer>
+					<integer>273</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>277</integer>
+					<integer>276</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2987,11 +2967,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>275</integer>
+					<integer>274</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>276</integer>
+					<integer>275</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3018,11 +2998,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>278</integer>
+					<integer>277</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>279</integer>
+					<integer>278</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3045,7 +3025,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>281</integer>
+					<integer>280</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3059,11 +3039,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>282</integer>
+					<integer>281</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>284</integer>
+					<integer>283</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3088,11 +3068,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>275</integer>
+					<integer>274</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>283</integer>
+					<integer>282</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3118,11 +3098,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>278</integer>
+					<integer>277</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>285</integer>
+					<integer>284</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3137,14 +3117,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>287</integer>
+					<integer>286</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>288</integer>
+					<integer>287</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3159,14 +3139,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>289</integer>
+					<integer>288</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>290</integer>
+					<integer>289</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3181,22 +3161,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>290</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>291</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>292</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>293</integer>
-				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>294</integer>
+					<integer>293</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3221,7 +3201,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>295</integer>
+					<integer>294</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3233,6 +3213,10 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>295</integer>
+				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>296</integer>
@@ -3257,36 +3241,32 @@
 					<key>CF$UID</key>
 					<integer>301</integer>
 				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>302</integer>
 				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>303</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>304</integer>
+					<integer>309</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>311</integer>
+					<integer>313</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>218</integer>
+					<integer>217</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>218</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>17</integer>
+					<integer>19</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3301,17 +3281,17 @@
 		<string>DocumentNavigableItemName</string>
 		<string>DocumentExtensionIdentifier</string>
 		<string>DocumentURL</string>
-		<string>com.apple.xml-property-list</string>
+		<string>public.objective-c-source</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>255</integer>
+				<integer>254</integer>
 			</dict>
 			<key>DocumentLocation</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>252</integer>
+				<integer>251</integer>
 			</dict>
 			<key>DomainIdentifier</key>
 			<dict>
@@ -3321,7 +3301,7 @@
 			<key>IdentifierPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>305</integer>
+				<integer>304</integer>
 			</dict>
 			<key>IndexOfDocumentIdentifier</key>
 			<dict>
@@ -3339,33 +3319,17 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>305</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>306</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>307</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>308</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>309</integer>
-				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>247</integer>
-			</dict>
-			<key>Identifier</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>218</integer>
-			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -3400,7 +3364,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>310</integer>
+				<integer>308</integer>
 			</dict>
 		</dict>
 		<string>cocos2d_particle_example</string>
@@ -3414,43 +3378,45 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>29</integer>
+					<integer>87</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>30</integer>
+					<integer>88</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>31</integer>
+					<integer>89</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>90</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>32</integer>
+					<integer>310</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>311</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>15</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>312</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>313</integer>
-				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1005, 466}}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>36</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array/>
-		</dict>
+		<real>326166987.849976</real>
+		<string>{346, 1013}</string>
+		<string>{740, 0}</string>
+		<string>-init</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3468,7 +3434,7 @@
 				<integer>315</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/tmp/cocos2d_particle_example/cocos2d_particle_example/fire.plist</string>
+		<string>file://localhost/tmp/cocos2d_particle_example/cocos2d_particle_example/HelloWorldLayer.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3483,7 +3449,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1020, 505}}</string>
+		<string>{{0, 0}, {1020, 642}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
