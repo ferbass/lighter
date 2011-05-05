@@ -37,14 +37,14 @@
 		
         CCParticleSystemQuad *fire = [CCParticleSystemQuad particleWithFile:@"fire.plist"];
 		CGSize size = [[CCDirector sharedDirector] winSize];
-		fire.position =  ccp( 130 , 210);
+		fire.position =  ccp( 130 , 200);
         
         CCSprite *lighter = [CCSprite spriteWithFile:@"bic_lighter.png"];
         lighter.position = ccp(size.width / 2, 100);
         
         
         [self addChild:lighter];
-		[self addChild:fire];
+		[self addChild:fire z:-1];
 	}
 	return self;
 	return self;
