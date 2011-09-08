@@ -12,6 +12,7 @@
 
 // HelloWorldLayer implementation
 @implementation Lighter
+@synthesize fire;
 
 +(CCScene *) scene
 {
@@ -34,21 +35,27 @@
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
-		
-        CCParticleSystemQuad *fire = [CCParticleSystemQuad particleWithFile:@"fire.plist"];
+        fire = [CCParticleSystemQuad particleWithFile:@"fire.plist"];
 		CGSize size = [[CCDirector sharedDirector] winSize];
 		fire.position =  ccp( 130 , 200);
-        
+        [fire setGravity:CGPointMake(300, 10)];
         CCSprite *lighter = [CCSprite spriteWithFile:@"bic_lighter.png"];
         lighter.position = ccp(size.width / 2, 100);
         
         
         [self addChild:lighter];
 		[self addChild:fire z:-1];
+        [[UIAccelerometer sharedAccelerometer] setDelegate:self];
 	}
 	return self;
 	return self;
 }
+
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
+{
+    [fire setGravity:CGPointMake((acceleration.x * 1000) * -1, fire.gravity.y)];
+}
+
 
 // on "dealloc" you need to release all your retained objects
 - (void) dealloc

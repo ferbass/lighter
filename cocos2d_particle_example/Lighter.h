@@ -11,10 +11,11 @@
 #import "cocos2d.h"
 
 // HelloWorldLayer
-@interface Lighter : CCLayer
+@interface Lighter : CCLayer <UIAccelerometerDelegate>
 {
 }
 
+@property (nonatomic,assign) CCParticleSystemQuad *fire;
 // returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
 
