@@ -1,0 +1,4 @@
+README
+======
+
+A simple example how to use cocos2d with particles and accelerometer
